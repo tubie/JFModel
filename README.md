@@ -12,8 +12,8 @@ pod 'JFModel'
 
 ## Manually【手动】
 - Drag all source files under floder JFModel to your project.【将JFModel文件夹中的所有源代码拽入项目中】
-- Import the main header file：#import "NSObject+keyValue2object.h"
-【导入主头文件：#import "NSObject+keyValue2object.h"】
+- Import the main header file：#import "JFModel"
+【导入主头文件：#import "JFModel"】
 
 
 
