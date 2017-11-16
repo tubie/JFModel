@@ -19,7 +19,7 @@ pod 'JFModel'
 
 # Examples【示例】
 
-### easy Dictionary to Model 【简单的字典转模型】
+### Easy Dictionary to Model 【简单的字典转模型】
 ```
  NSDictionary *dict = @{
                            @"name" : @"linjianfang",
@@ -36,7 +36,7 @@ pod 'JFModel'
 
 ```
 
-### easy Json to Model 【Json转模型】
+### Easy Json to Model 【Json转模型】
 ```
  
     NSString *jsonString = @"{\"name\":\"Jack\", \"icon\":\"lufy.png\", \"age\":20}";
@@ -44,7 +44,7 @@ pod 'JFModel'
     NSLog(@"name=%@, icon=%@, age=%d", user.name, user.icon, user.age);
 ```
 
-### complex Dictionary to Model   【复杂的字典转模型转模型 】 
+### Complex Dictionary to Model   【复杂的字典转模型转模型 】 
 ```
     NSDictionary *dict = @{
                            @"text" : @"是啊，今天天气确实不错！",
