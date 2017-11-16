@@ -10,16 +10,16 @@
 pod 'JFModel'
 ```
 
-##how  to use JFModel【手动】
+## how  to use JFModel【手动】
 - Drag all source files under floder JFModel to your project.【将JFModel文件夹中的所有源代码拽入项目中】
 - Import the main header file：#import "NSObject+keyValue2object.h"
 【导入主头文件：#import "NSObject+keyValue2object.h"
 
 
 
-#Examples【示例】
+# Examples【示例】
 
-###简单的字典转模型
+### 简单的字典转模型
 ```
  NSDictionary *dict = @{
                            @"name" : @"linjianfang",
@@ -36,7 +36,7 @@ pod 'JFModel'
 
 ```
 
-###Json转模型
+### Json转模型
 ```
  
     NSString *jsonString = @"{\"name\":\"Jack\", \"icon\":\"lufy.png\", \"age\":20}";
@@ -44,7 +44,7 @@ pod 'JFModel'
     NSLog(@"name=%@, icon=%@, age=%d", user.name, user.icon, user.age);
 ```
 
-###复杂的字典转模型转模型
+### 复杂的字典转模型转模型
 ```
     NSDictionary *dict = @{
                            @"text" : @"是啊，今天天气确实不错！",
@@ -81,7 +81,7 @@ pod 'JFModel'
     
     
 ```
-###字典数组转模型
+### 字典数组转模型
  ```
   
     NSDictionary *dict = @{
