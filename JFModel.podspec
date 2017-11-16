@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JFModel"
-s.version      = "1.0.1"
+s.version      = "1.0.3"
 s.summary      = "一个简单的字典转模型框架"
 s.description  = <<-DESC
 私有Pods测试
