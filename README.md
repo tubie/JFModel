@@ -1,6 +1,6 @@
 # JFModel
 
-##how  to use JFModel【怎么使用】
+## how  to use JFModel【怎么使用】
 
 ## <a id="Installation"></a> Installation【安装】
 
@@ -10,10 +10,10 @@
 pod 'JFModel'
 ```
 
-## how  to use JFModel【手动】
+## Manually【手动】
 - Drag all source files under floder JFModel to your project.【将JFModel文件夹中的所有源代码拽入项目中】
 - Import the main header file：#import "NSObject+keyValue2object.h"
-【导入主头文件：#import "NSObject+keyValue2object.h"
+【导入主头文件：#import "NSObject+keyValue2object.h"】
 
 
 
