@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JFModel"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "一个简单的字典转模型框架"
 s.description  = <<-DESC
 私有Pods测试
@@ -11,7 +11,7 @@ s.license      = "MIT"
 s.author             = { "linJF" => "594426995@qq.com" }
 s.source       = { :git => "https://github.com/tubie/JFModel.git", :tag => s.version }
 
-s.platform     = :ios, "8.0"
+s.platform     = :ios, "7.0"
 s.requires_arc = true
 s.source_files  = "JFModel/*.{h,m}"
 s.frameworks = 'UIKit'
