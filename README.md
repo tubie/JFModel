@@ -7,7 +7,7 @@
 ### From CocoaPods【使用CocoaPods】
 
 ```ruby
-pod 'JFModel'
+pod 'JFModel', '~> 1.0.3'
 ```
 
 ## Manually【手动】
